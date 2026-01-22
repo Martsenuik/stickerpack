@@ -1,7 +1,9 @@
-export const Sticker = ({ img, label }) => {
+import { Item, Img } from "./Sticker.styled";
+
+export const Sticker = ({ img, label, onClick }) => {
   return (
-    <li>
-      <img src={img} alt={label} />
-    </li>
+    <Item onClick={onClick}>
+      <Img src={img} alt={label} />
+    </Item>
   );
 };
