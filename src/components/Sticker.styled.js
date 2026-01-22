@@ -5,7 +5,8 @@ display: flex;
 
    ` 
 export const Item = styled.li`
-
+ list-style: none;
+ margin-right: 50px;
 `
 
 export const Img = styled.img`
@@ -25,5 +26,5 @@ display: flex;
 `
 
 export const ChoiceText = styled.h3`
-font-size: 54px;
+font-size: 44px;
 ` 
