@@ -6,7 +6,7 @@ display: flex;
    ` 
 export const Item = styled.li`
  list-style: none;
- margin-right: 50px;
+ margin-right: 10px;
 `
 
 export const Img = styled.img`
